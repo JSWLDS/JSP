@@ -15,7 +15,7 @@
 		String grade_name = request.getParameter("grade_name");  // 관리자, 회원, 손님
 	%>
 	<h3>[<%= id %>(<%=grade_name %>)]님이 접속 중 입니다.<br>
-	사용 가능  메뉴입니다.</h3> 
+	사용 가능  	메뉴입니다.</h3> 
 	<hr>
 	
 	<%
