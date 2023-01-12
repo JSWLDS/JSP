@@ -30,5 +30,5 @@
 	 	out.print(cookieRememberId.getValue());
 	 	response.sendRedirect("http://localhost:8080/C_2023_01_11/CookieSessionCheck.jsp");
 	 %>
-</body>
+</body> 
 </html>

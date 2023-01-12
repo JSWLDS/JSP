@@ -8,9 +8,9 @@
 </head>
 <body>
 	<%
-		if(session.getAttribute("ID")==null){
+		if(session.getAttribute("ID") == null){
 	%>
-			<form action="CookieSessionSet.jsp" method="post">
+			<form action="SessionAttributeSet.jsp" method="post">
 				<h3>아이디와 비밀번호를 입력하십시오.</h3><hr>
 				<table border="1">
 					<tr>
@@ -30,16 +30,17 @@
 			</form>
 		<% }else{%>
 				<h3>[<%= session.getAttribute("ID") %>]님 환영합니다.</h3>
-			<%}%>
+			
 		
 		
 		<form action="SessionCheck.jsp" method="post">
 			<input type="submit" value="로그인 상태 확인">
 		</form>
 		
-		<form action="SessionExit.jsp" method="post	">
+		<form action="SessionExit.jsp" method="post">
 			<input type="submit" value="로그아웃">
 		</form>
+		<%}%>
 		
 		로그인 상태 확인  로그아웃
 </body>

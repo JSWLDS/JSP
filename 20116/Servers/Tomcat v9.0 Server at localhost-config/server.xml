@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="A_2023_01_09" path="/A_2023_01_09" reloadable="true" source="org.eclipse.jst.jee.server:A_2023_01_09"/><Context docBase="B_2023_01_10" path="/B_2023_01_10" reloadable="true" source="org.eclipse.jst.jee.server:B_2023_01_10"/><Context docBase="C_2023_01_11" path="/C_2023_01_11" reloadable="true" source="org.eclipse.jst.jee.server:C_2023_01_11"/></Host>
+      <Context docBase="A_2023_01_09" path="/A_2023_01_09" reloadable="true" source="org.eclipse.jst.jee.server:A_2023_01_09"/><Context docBase="B_2023_01_10" path="/B_2023_01_10" reloadable="true" source="org.eclipse.jst.jee.server:B_2023_01_10"/><Context docBase="C_2023_01_11" path="/C_2023_01_11" reloadable="true" source="org.eclipse.jst.jee.server:C_2023_01_11"/><Context docBase="D_2023_01_12" path="/D_2023_01_12" reloadable="true" source="org.eclipse.jst.jee.server:D_2023_01_12"/></Host>
     </Engine>
   </Service>
 </Server>

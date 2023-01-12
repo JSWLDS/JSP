@@ -4,14 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>세션 종료</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<%
-		if(session != null){
-			session.invalidate();
-		}
-		response.sendRedirect("http://localhost:8080/C_2023_01_11/SessionLogout.jsp");
-	%>
+	<%out.print("포워딩 대상 페이지"); %>
 </body>
 </html>
